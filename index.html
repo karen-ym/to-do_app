@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>To do's</title>
-</head>
-<body>
-  <script src="script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>To do's</title>
+	</head>
+	<body>
+		<main>
+			<section class="main-div">
+				<h1>To do's</h1>
+				<br />
+				<label for="newtodo">Add to do:</label>
+				<input type="text" name="newtodo" id="newtodo" />
+				<button class="add-btn">Add</button>
+				<button class="clear-btn">Clear</button>
+			</section>
+			<div class="todos-div">
+        <ul style="list-style-type:none">
+          <li>Example 1 <button>Delete</button></li>
+          <li>Example 2 <button>Delete</button></li>
+          <li>Example 3 <button>Delete</button></li>
+        </ul>
+      </div>
+		</main>
+		<script src="script.js"></script>
+	</body>
 </html>

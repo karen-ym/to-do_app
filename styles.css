@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+}
+
+main{
+  text-align: center;
+  margin-top: 10vh;
+  border: 2px rgb(165, 234, 236) solid;
+  box-sizing: border-box;
+}
+
+.main-div, h1{
+  display: inline-block; /*BORDE TAMAÑO OBJETO*/
+  /* border: 2px red solid; */
+}
+
+h1{
+  font-family: monospace, sans-serif;
+  font-size: 4em;
+}
+
+.todos-div{
+  margin-top: 30px;
+  /* border: 2px red solid; */
+}
+
+li {
+  padding: 5px;
+  font-size: 1.4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(63, 63, 63);
+}
