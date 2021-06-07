@@ -12,18 +12,32 @@
 			<section class="main-div">
 				<h1>To do's</h1>
 				<br />
-				<label for="newtodo">Add to do:</label>
-				<input type="text" name="newtodo" id="newtodo" />
-				<button class="add-btn">Add</button>
-				<button class="clear-btn">Clear</button>
+				<span class="bar-section">
+					<label for="newtodo" class="text">Add to do:</label>
+					<input type="text" name="newtodo" id="newtodo" />
+					<button class="add btn">Add</button>
+					<button class="clear btn">Clear</button>
+				</span>
 			</section>
 			<div class="todos-div">
-        <ul style="list-style-type:none">
-          <li>Example 1 <button>Delete</button></li>
-          <li>Example 2 <button>Delete</button></li>
-          <li>Example 3 <button>Delete</button></li>
-        </ul>
-      </div>
+				<ul style="list-style-type: none">
+					<li>
+						<span>Example 1</span>
+						<button class="done-btn">Done</button>
+						<button class="delete-btn">X</button>
+					</li>
+					<li>
+						<span>Example 2</span>
+						<button class="done-btn">Done</button>
+						<button class="delete-btn">X</button>
+					</li>
+					<li>
+						<span>Example 3</span>
+						<button class="done-btn">Done</button>
+						<button class="delete-btn">X</button>
+					</li>
+				</ul>
+			</div>
 		</main>
 		<script src="script.js"></script>
 	</body>
